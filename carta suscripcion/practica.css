@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(196, 196, 196);
+    background-color: rgba(196, 196, 196, 0.836);
 }
 .contenedor{
     display: flex;
@@ -12,6 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background: radial-gradient(at center top, rgba(174, 255, 252, 1.0), rgba(211, 211, 211, 0.74));
 }
 .card{
     background-color: white;
