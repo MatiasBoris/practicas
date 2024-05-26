@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(227, 240, 241);
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(190, 231, 184);
+}
+.form{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(169, 221, 164);
+}
+.form__name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+}
+.input__nombre{
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    border: solid 1px rgb(54, 134, 46);
+}
+.form__email{
+    display: flex;
+    flex-direction: column;
+}
+.input__email{
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    border-radius: 5px;
+    border: solid 1px rgb(54, 134, 46);
+}
+.form__consulta{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    text-decoration: none;
+}
+.form__consulta__boton{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.form__consulta__boton__general,.form__consulta__boton__soporte{
+    display: flex;
+    width: 50%;
+    padding: 6px;
+    gap: 20px;
+    border-radius: 5px;
+    border: solid 1px rgb(54, 134, 46);
+    background-color: rgb(255, 255, 255);
+}
+.input__mensaje{
+    height: 100px;
+    width: 100%;
+    resize: none;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 1px rgb(54, 134, 46);
+}
+.form__check{
+    display: flex;
+    gap: 20px;
+}
+.form__submit__boton{
+    border: none;
+}
+.input__submit{
+    height: 35px;
+    width: 550px;
+    background-color: rgb(54, 134, 46);
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    border: solid 1px rgb(54, 134, 46);
+}

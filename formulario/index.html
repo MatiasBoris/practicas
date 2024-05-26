@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/formulario/formulario.css">
+</head>
+<body>
+    <form class="contenedor">
+        <div class="form">
+            <div class="form__title">
+                <h1>Contactanos</h1>
+            </div>
+            <div class="form__name">
+                <div class="form__name__nombre">
+                    <legend>Nombre*</legend>
+                    <input type="text" class="input__nombre" required>
+                </div>
+                <div class="form__name__apellido">
+                    <legend>Apellido*</legend>
+                    <input type="text" class="input__nombre" required>
+                </div>
+            </div>
+            <div class="form__email">
+                <legend>Email*</legend>
+                <input type="email" class="input__email" required>
+            </div>
+            <div class="form__consulta">
+                <p>Tipo de Consulta*</p>
+                <div class="form__consulta__boton">
+                    <button class="form__consulta__boton__general"><input type="radio" name="consulta" required>Consulta General</button>
+                    <button class="form__consulta__boton__soporte"><input type="radio" name="consulta" required>Soporte Técnico</button>
+                </div>
+            </div>
+            <div class="form__text">
+                <div class="form__text">
+                    <legend>Mensaje*</legend>
+                    <textarea class="input__mensaje" required></textarea>
+                </div>
+            </div>
+            <div class="form__check">
+                <input type="checkbox" class="input__check">Permitir iniciar contacto con el equipo*
+            </div>
+            <div class="form__submit">
+                <button class="form__submit__boton"><input type="submit" class="input__submit"></button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
