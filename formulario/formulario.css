@@ -88,4 +88,5 @@ body{
     color: white;
     border-radius: 5px;
     border: solid 1px rgb(54, 134, 46);
+    cursor: pointer;
 }

@@ -54,6 +54,10 @@ body{
     padding: 10px;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
+}
+.boton1:active,.boton2:active,.boton3:active{
+    transform: scale(0.9); 
 }
 .boton1{
     background-color: rgb(223, 22, 106);
