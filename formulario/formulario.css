@@ -20,6 +20,7 @@ body{
     flex-direction: column;
     gap: 30px;
     background-color: rgb(169, 221, 164);
+    border-radius: 10px;
 }
 .form__name{
     display: flex;
