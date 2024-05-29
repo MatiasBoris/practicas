@@ -29,8 +29,14 @@
             <div class="form__consulta">
                 <p>Tipo de Consulta*</p>
                 <div class="form__consulta__boton">
-                    <button class="form__consulta__boton__general"><input type="radio" name="consulta" required>Consulta General</button>
-                    <button class="form__consulta__boton__soporte"><input type="radio" name="consulta" required>Soporte Técnico</button>
+                    <div class="boton__general">
+                        <input type="radio" name="consulta" required id="general">
+                        <label for="general" class="boton__consulta__click">Consulta General</label>
+                    </div>
+                    <div class="boton__soporte">
+                        <input type="radio" name="consulta" required id="soporte">
+                        <label for="soporte" class="boton__consulta__click">Soporte Técnico</label>
+                    </div>
                 </div>
             </div>
             <div class="form__text">
@@ -40,7 +46,7 @@
                 </div>
             </div>
             <div class="form__check">
-                <input type="checkbox" class="input__check">Permitir iniciar contacto con el equipo*
+                <input type="checkbox" class="input__check" required>Permitir iniciar contacto con el equipo*
             </div>
             <div class="form__submit">
                 <button class="form__submit__boton"><input type="submit" class="input__submit"></button>
