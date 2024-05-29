@@ -80,6 +80,7 @@ body{
 }
 .boton__consulta__click{
     width: 100%;
+    cursor: pointer;
 }
 .input__mensaje{
     height: 100px;
