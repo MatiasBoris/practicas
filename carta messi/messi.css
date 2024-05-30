@@ -17,23 +17,24 @@
     align-items: center;
     flex-direction: column;
     background-color: rgb(0, 0, 0);
-    padding: 30px;
-    gap: 10px;
-    border-radius: 10px;
+    padding: 2rem;
+    gap: 1rem;
+    border-radius: 1rem;
     background: radial-gradient(at center bottom, rgba(53, 53, 53, 1.0), rgba(1, 1, 1, 1.0));
 }
 .carta__foto{
     background-color:  rgb(0, 0, 0);
-    border-radius: 50px;
+    border-radius: 2rem;
+    width: 300px
 }
 .carta__foto__img{
-    height: 130px;
-    width: 250px;
-    border-radius: 50;
+    height:200px;
+    width: 300px;
+    border-radius: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 15px
+    border-radius: 1rem
 }
 .carta__texto{
     display: flex;
@@ -44,7 +45,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 2rem;
     color: rgb(189, 184, 184);
 }
 .carta__texto__title2{
@@ -55,7 +56,7 @@ justify-content: center;
 color: rgb(189, 184, 184);
 }
 .carta__frase__frase{
-    font-size: 10px;
+    font-size: 0.5;
     color: rgb(189, 184, 184);
 }
 .carta__botones{
@@ -63,13 +64,13 @@ color: rgb(189, 184, 184);
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 5px;
+    gap: 0.3rem;
 }
 .boton__facebook,.boton__instagram,.boton__youtube,.boton__twitter,.boton__actualidad,.boton__transfer{
-    width: 300px;
+    width: 100%;
     cursor: pointer;
-    border-radius: 10px;
-    padding: 5px;
+    border-radius: 0.6rem;
+    padding: 0.4rem;
     border: none;
     background-color: rgb(165, 164, 164);
 }
@@ -98,3 +99,7 @@ color: rgb(189, 184, 184);
     background-color: rgb(20, 20, 77);
     color: white;
 }
+a{
+    width: 300px;
+}
+
