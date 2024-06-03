@@ -72,7 +72,6 @@ color: rgb(189, 184, 184);
     border-radius: 0.6rem;
     padding: 0.4rem;
     border: none;
-    background-color: rgb(165, 164, 164);
 }
 .boton__facebook{
     background-color: #1877f2;
@@ -103,3 +102,126 @@ a{
     width: 300px;
 }
 
+@media (max-width:1200px){
+    .carta__foto__img{
+    height:300px;
+    width: 500px;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem
+    }
+    .carta__foto{
+    background-color:  rgb(0, 0, 0);
+    border-radius: 2rem;
+    width: 500px
+    }
+    .boton__facebook,.boton__instagram,.boton__youtube,.boton__twitter,.boton__actualidad,.boton__transfer{
+        width: 500px;
+        cursor: pointer;
+        border-radius: 0.6rem;
+        border: none;
+    }
+    .carta__botones{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 0.3rem;
+        padding-right: 13rem;
+    }
+}
+@media (max-width:720px){
+    .carta__foto__img{
+    height:200px;
+    width: 400px;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem
+    }
+    .carta__foto{
+    background-color:  rgb(0, 0, 0);
+    border-radius: 2rem;
+    width: 400px
+    }
+    .boton__facebook,.boton__instagram,.boton__youtube,.boton__twitter,.boton__actualidad,.boton__transfer{
+        width: 400px;
+        cursor: pointer;
+        border-radius: 0.6rem;
+        border: none;
+    }
+    .carta__botones{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 0.3rem;
+        padding-right: 7rem;
+    }
+}
+@media (min-width: 1201px){
+    .carta__foto__img{
+        height:300px;
+        width: 500px;
+        border-radius: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1rem
+        }
+        .carta__foto{
+        background-color:  rgb(0, 0, 0);
+        border-radius: 2rem;
+        width: 500px
+        }
+        .boton__facebook,.boton__instagram,.boton__youtube,.boton__twitter,.boton__actualidad,.boton__transfer{
+            width: 500px;
+            cursor: pointer;
+            border-radius: 0.6rem;
+            border: none;
+        }
+        .carta__botones{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 0.3rem;
+            padding-right: 13rem;
+        }
+}
+@media (max-width:500px){
+    .carta{
+        width: 250px;
+    }
+    .carta__foto__img{
+        width: 200px;
+        height: 150px;
+        border-radius: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1rem
+    }
+    .carta__foto{
+        background-color:  rgb(0, 0, 0);
+        border-radius: 2rem;
+        width: 200px
+    }
+    .boton__facebook,.boton__instagram,.boton__youtube,.boton__twitter,.boton__actualidad,.boton__transfer{
+        width: 200px;
+        cursor: pointer;
+        border-radius: 0.6rem;
+        border: none;
+    }
+    .carta__botones{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 0.3rem;
+        padding-left: 13rem;
+    }
+}
