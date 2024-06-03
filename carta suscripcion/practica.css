@@ -77,3 +77,56 @@ body{
     font-size: 40px;
 
 }
+@media (max-width:640px){
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: calc(100vw - 2rem);
+        gap: 0px;
+    }
+    .paquete{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+    .paquete__title{
+        padding: 0px;
+    }
+    .paquete__descripcion{
+        padding: 2px;
+    }
+    .paquete__precio{
+        padding: 0px;
+    }
+    .paquete__info{
+        padding: 5px;
+        font-size: 12px;
+
+    }
+
+}
+@media (max-width:420px){
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: calc(100vw - 2rem)
+
+    }
+    .paquete{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .paquete__info{
+        display: none;
+    }
+}
